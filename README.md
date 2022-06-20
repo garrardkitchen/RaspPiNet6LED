@@ -9,7 +9,7 @@ Create a deploy PS script, similar to this, and `. .\deploy.ps1` each time you w
 **deploy.ps1**:
 
 ```powershell
-scp -r /C:\Users\<user>\source\RaspPiNet6TempSensor\RaspPiNet6LED\bin\Debug\net6.0/* <username>@<ip-address>:/home/<username>/dotnet6/RaspPiNet6LED/
+scp -r /C:\Users\<user>\source\RaspPiNet6LED\bin\Debug\net6.0/* <username>@<ip-address>:/home/<username>/dotnet6/RaspPiNet6LED/
 ```
 
 To run:
